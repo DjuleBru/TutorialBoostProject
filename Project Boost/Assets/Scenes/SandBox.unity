@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &423504307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382225692737295351, guid: 39adf47d134301b479aedef76100fb50, type: 3}
+  m_PrefabInstance: {fileID: 5798394839126562876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &423504315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423504307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1326739357b7cd345aaf2178a3bc7dab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,14 +439,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 736286220, guid: 39adf47d134301b479aedef76100fb50, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 736286220, guid: 39adf47d134301b479aedef76100fb50, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
     - target: {fileID: 486761555950697888, guid: 39adf47d134301b479aedef76100fb50, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -477,6 +486,10 @@ PrefabInstance:
     - target: {fileID: 1382225692737295351, guid: 39adf47d134301b479aedef76100fb50, type: 3}
       propertyPath: m_Name
       value: Rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646542166220793876, guid: 39adf47d134301b479aedef76100fb50, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39adf47d134301b479aedef76100fb50, type: 3}
@@ -534,6 +547,10 @@ PrefabInstance:
     - target: {fileID: 6898684645851758782, guid: 8b2c2707f047c8640aae7b19ba09bc52, type: 3}
       propertyPath: m_Name
       value: LandingPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6898684645851758782, guid: 8b2c2707f047c8640aae7b19ba09bc52, type: 3}
+      propertyPath: m_TagString
+      value: Finish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b2c2707f047c8640aae7b19ba09bc52, type: 3}
